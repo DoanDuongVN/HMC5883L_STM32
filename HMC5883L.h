@@ -16,7 +16,7 @@ extern "C" {
 
 #define I2C hi2c1
 #define HMC5883L_ADDRESS              0x1E // this device only has one address
-#define HMC5883L_DEFAULT_ADDRESS    (HMC5883L_ADDRESS<<1)
+#define HMC5883L_DEFAULT_ADDRESS    (HMC5883L_ADDRESS<<1) // 0x3C
 
 //#define HMC5883L_ADDRESS              (0x1E)
 #define HMC5883L_REG_CONFIG_A         (0x00)
